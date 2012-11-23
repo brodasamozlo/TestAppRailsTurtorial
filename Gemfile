@@ -5,8 +5,7 @@ gem 'rails', '3.1.0'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'pg', '0.12.2'
-gem 'jquery-rails', '2.0.2'
+gem 'pg'
 
 
 # Gems used only for assets and not required
