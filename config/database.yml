@@ -12,7 +12,7 @@ development:
 
 test:
   <<: *common
-  database: TestAppRailsTurtorial
+  database: TestAppRailsTurtorial_test
 
 production:
   <<: *common
