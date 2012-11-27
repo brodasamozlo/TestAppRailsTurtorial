@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
 
 group :development, :test do
   gem 'pg', '0.12.2'
@@ -12,6 +13,7 @@ group :development, :test do
   gem 'spork-testunit' 
   gem 'guard-test' 
   gem 'ruby-prof' 
+  gem 'annotate', '2.5.0' #dodaje komentarz do pliku z modelem bundle exec annotate
   
 end
 
